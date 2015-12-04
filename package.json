@@ -1,0 +1,17 @@
+{
+  "name": "data-state-setter",
+  "version": "1.0.0",
+  "description": "A simple utility to set the state for your data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "reducer",
+    "state"
+  ],
+  "author": "tutorialhorizon@gmail.com",
+  "license": "MIT"
+}
