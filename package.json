@@ -1,6 +1,6 @@
 {
   "name": "data-state-setter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility to set the state for your data",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
     "reducer",
     "state"
   ],
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/tutorialhorizon/data-state-setter.git"
+  },
   "author": "tutorialhorizon@gmail.com",
   "license": "MIT"
 }
