@@ -1,6 +1,6 @@
 {
   "name": "data-state-setter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple utility to set the state for your data",
   "main": "index.js",
   "scripts": {

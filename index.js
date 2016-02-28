@@ -3,28 +3,28 @@
 // Data can be in one of the following states
 module.exports = {
 	// Initialized to a default value
-	init(data) {
+	init: function (data) {
 		return {
 	        value: data,
 	        isInit: true
 	    };
 	},
 	// Loading from a network resource
-	loading(data) {
+	loading: function (data) {
 		return {
 	        value: data,
 	        isLoading: true
 	    };
 	},
 	// Contains valid data
-	success(data) {
+	success: function (data) {
 		return {
 	        value: data,
 	       	isSuccess: true
 	    };
 	},
 	// Contains invalid data
-	failure(err, prevValue) {
+	failure: function (err, prevValue) {
 	    return {
 	        value: prevValue,
 	        isError: true,
